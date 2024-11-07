@@ -14,6 +14,12 @@
 		B16E89682C9A7CEE006A0123 /* DarshCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E89672C9A7CEE006A0123 /* DarshCardTests.swift */; };
 		B16E89722C9A7CEE006A0123 /* DarshCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E89712C9A7CEE006A0123 /* DarshCardUITests.swift */; };
 		B16E89742C9A7CEE006A0123 /* DarshCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E89732C9A7CEE006A0123 /* DarshCardUITestsLaunchTests.swift */; };
+		B16E89822C9A80A8006A0123 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B16E89812C9A80A8006A0123 /* Pacifico-Regular.ttf */; };
+		B16E89832C9A80A8006A0123 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B16E89812C9A80A8006A0123 /* Pacifico-Regular.ttf */; };
+		B16E89842C9A80A8006A0123 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B16E89812C9A80A8006A0123 /* Pacifico-Regular.ttf */; };
+		B16E89872C9A93CF006A0123 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E89862C9A93CF006A0123 /* InfoView.swift */; };
+		B16E89882C9A93CF006A0123 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E89862C9A93CF006A0123 /* InfoView.swift */; };
+		B16E89892C9A93CF006A0123 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E89862C9A93CF006A0123 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,9 @@
 		B16E896D2C9A7CEE006A0123 /* DarshCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarshCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16E89712C9A7CEE006A0123 /* DarshCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarshCardUITests.swift; sourceTree = "<group>"; };
 		B16E89732C9A7CEE006A0123 /* DarshCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarshCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B16E89812C9A80A8006A0123 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Desktop/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		B16E89852C9A8184006A0123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B16E89862C9A93CF006A0123 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +103,11 @@
 		B16E89552C9A7CEC006A0123 /* DarshCard */ = {
 			isa = PBXGroup;
 			children = (
+				B16E89852C9A8184006A0123 /* Info.plist */,
+				B16E89802C9A8091006A0123 /* Fonts */,
 				B16E89562C9A7CEC006A0123 /* DarshCardApp.swift */,
 				B16E89582C9A7CEC006A0123 /* ContentView.swift */,
+				B16E89862C9A93CF006A0123 /* InfoView.swift */,
 				B16E895A2C9A7CEE006A0123 /* Assets.xcassets */,
 				B16E895C2C9A7CEE006A0123 /* Preview Content */,
 			);
@@ -125,6 +137,14 @@
 				B16E89732C9A7CEE006A0123 /* DarshCardUITestsLaunchTests.swift */,
 			);
 			path = DarshCardUITests;
+			sourceTree = "<group>";
+		};
+		B16E89802C9A8091006A0123 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B16E89812C9A80A8006A0123 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16E89822C9A80A8006A0123 /* Pacifico-Regular.ttf in Resources */,
 				B16E895E2C9A7CEE006A0123 /* Preview Assets.xcassets in Resources */,
 				B16E895B2C9A7CEE006A0123 /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16E89832C9A80A8006A0123 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16E89842C9A80A8006A0123 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16E89592C9A7CEC006A0123 /* ContentView.swift in Sources */,
+				B16E89872C9A93CF006A0123 /* InfoView.swift in Sources */,
 				B16E89572C9A7CEC006A0123 /* DarshCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16E89882C9A93CF006A0123 /* InfoView.swift in Sources */,
 				B16E89682C9A7CEE006A0123 /* DarshCardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B16E89722C9A7CEE006A0123 /* DarshCardUITests.swift in Sources */,
+				B16E89892C9A93CF006A0123 /* InfoView.swift in Sources */,
 				B16E89742C9A7CEE006A0123 /* DarshCardUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +451,7 @@
 				DEVELOPMENT_TEAM = XB8V8GBU8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DarshCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +481,7 @@
 				DEVELOPMENT_TEAM = XB8V8GBU8W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DarshCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
